@@ -1,6 +1,16 @@
 <template>
   <div id="app">
-   <div>111</div>
+   <h1>黑马头条</h1>
+   <div>
+     <i class="toutiao toutiao-sousuo"></i>
+   </div>
+ <van-button type="default">默认按钮</van-button>
+  <van-button type="primary">主要按钮</van-button>
+  <van-button type="info">信息按钮</van-button>
+  <van-button type="warning">警告按钮</van-button>
+  <van-button type="danger">危险按钮</van-button>
+  <van-image width="100" height="100" src="https://img.yzcdn.cn/vant/cat.jpeg" />
+  <div class="box">111</div>
     <router-view/>
   </div>
 </template>
@@ -10,5 +20,9 @@ export default {
 }
 </script>
 <style lang="less">
-
+.box {
+  width: 750px;
+  height: 64px;
+  background-color: pink;
+}
 </style>
